@@ -129,7 +129,7 @@
 #define MAX_VERBOSE_NICKNAME_LEN (1+HEX_DIGEST_LEN+1+MAX_NICKNAME_LEN)
 
 /** Maximum size, in bytes, for resized buffers. */
-#define MAX_BUF_SIZE ((1<<24)-1) /* 16MB-1 */
+#define MAX_BUF_SIZE ((1<<25)-1) /* 16MB-1 */
 /** Maximum size, in bytes, for any directory object that we've downloaded. */
 #define MAX_DIR_DL_SIZE MAX_BUF_SIZE
 
